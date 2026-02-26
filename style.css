@@ -1,0 +1,36 @@
+body{
+    min-height:100vh;
+    background-image:url("/mg.jpg");
+    background-size:contain;      /* full image visible */
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-color:black;       /* optional */
+}
+
+
+
+.todo-card{
+    background:white;
+    border-radius:20px;
+    padding:40px;
+    margin-top:60px;
+    box-shadow:0 20px 50px rgba(0,0,0,0.2);
+}
+
+.dark-mode{
+    background:#1e1e2f !important;
+    color:white;
+}
+
+.dark-mode .todo-card{
+    background:#2c2c3e;
+}
+
+.text-strikethrough{
+    text-decoration:line-through;
+    color:grey;
+}
+.dark-mode{
+    background-image:url("/q.jpg");
+}
